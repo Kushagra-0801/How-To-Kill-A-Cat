@@ -1,8 +1,9 @@
 from django.db import models
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from posts.models import Post
 from django.utils import timezone
 
+User = get_user_model()
 
 class Comment(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
