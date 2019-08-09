@@ -7,8 +7,8 @@ This is a blog made with django as the backend.
 - [ ] Profile Page
 - [ ] Posts Page
 - [ ] Settings Page
-- [ ] User Login
-- [ ] User Logout
+- [x] User Login
+- [x] User Logout
 - [ ] User Creation
 ### API Endpoints
 - [x] User Registration
